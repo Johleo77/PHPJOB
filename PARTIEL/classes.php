@@ -50,8 +50,13 @@ class Personne {
 	}
 
 	//Méthodes
+	
 	private function afficher() {
-		echo "Affichage des caractéristiques";
+	$this->num . '<br/>';
+	$this->nom . '<br/>';
+	$this->prenom . '<br/>';
+	$this->entreprise->nom . '<br/>';
+	}
 	}
 
 	public calculerSalaire() {
